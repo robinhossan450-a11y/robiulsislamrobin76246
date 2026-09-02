@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111827">
+  <title>Robiul Islam Robin</title>
+  <style>
+    *{box-sizing:border-box}
+    body{
+      margin:0; min-height:100vh; display:flex; justify-content:center;
+      font-family:Arial,Helvetica,sans-serif;
+      background:linear-gradient(145deg,#eef2ff,#f8fafc 45%,#e0f2fe);
+      color:#111827; padding:24px 14px;
+    }
+    .card{
+      width:min(430px,100%); background:rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.8); border-radius:28px;
+      padding:26px 20px 22px; box-shadow:0 18px 55px rgba(15,23,42,.15);
+      text-align:center; backdrop-filter:blur(10px);
+    }
+    .photo{
+      width:145px;height:145px;object-fit:cover;border-radius:50%;
+      border:5px solid white; box-shadow:0 8px 25px rgba(0,0,0,.18);
+    }
+    h1{font-size:27px;margin:17px 0 7px}
+    .sub{color:#64748b;margin:0 0 22px;font-size:15px}
+    .btn{
+      display:flex; align-items:center; justify-content:center; gap:10px;
+      text-decoration:none; color:white; font-weight:700;
+      padding:15px 18px; border-radius:15px; margin:11px 0;
+      transition:.2s; box-shadow:0 7px 18px rgba(15,23,42,.12);
+    }
+    .btn:hover{transform:translateY(-2px)}
+    .phone{background:#2563eb}.wa{background:#16a34a}.fb{background:#1877f2}
+    .info{
+      margin-top:18px;padding:15px;border-radius:17px;background:#f8fafc;
+      color:#475569;font-size:14px;line-height:1.6
+    }
+    .footer{margin-top:18px;color:#94a3b8;font-size:12px}
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img class="photo" src="profile.jpg" alt="Robiul Islam Robin">
+    <h1>Robiul Islam Robin</h1>
+    <p class="sub">Welcome to my profile</p>
+
+    <a class="btn phone" href="tel:+8801621336741">📞 Call: +880 1621-336741</a>
+    <a class="btn wa" href="https://wa.me/8801540583559" target="_blank" rel="noopener">💬 WhatsApp</a>
+    <a class="btn fb" href="https://www.facebook.com/robiulislam76246" target="_blank" rel="noopener">📘 Facebook</a>
+
+    <div class="info">
+      Tap any button above to contact me.
+    </div>
+    <div class="footer">QR Profile • Robiul Islam Robin</div>
+  </main>
+</body>
+</html>
